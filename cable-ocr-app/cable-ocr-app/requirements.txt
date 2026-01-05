@@ -1,1 +1,8 @@
+Flask
+gunicorn
+pytesseract
+pdf2image
+PyPDF2
+reportlab
+
 
