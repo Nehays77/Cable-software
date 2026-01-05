@@ -1,8 +1,35 @@
-Flask
-gunicorn
-pytesseract
-pdf2image
-PyPDF2
-reportlab
+# Flask Web Framework
+Flask==3.1.2
+Werkzeug==3.1.4
 
+# Production WSGI Server
+gunicorn==23.0.0
 
+# PDF Processing
+pdf2image==1.17.0
+PyPDF2==3.0.1
+reportlab==4.4.6
+
+# OCR (Optical Character Recognition)
+pytesseract==0.3.13
+Pillow==12.0.0
+
+# Additional Flask dependencies
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+itsdangerous==2.2.0
+click==8.3.1
+blinker==1.9.0
+
+# Utility libraries
+packaging==25.0
+charset-normalizer==3.4.4
+
+# Windows compatibility
+colorama==0.4.6
+
+# Optional: For better performance and additional features
+# Uncomment if needed:
+# numpy==1.26.4
+# opencv-python==4.10.0.84
+# matplotlib==3.8.4
